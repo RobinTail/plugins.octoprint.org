@@ -85,11 +85,11 @@ compatibility:
   # If your plugin only supports Python 2 (worst case, not recommended for newly developed plugins since Python 2
   # is EOL), leave at ">=2.7,<3"
 
-  python: ">=3.7,<4"
+  python: ">=3.9,<4"
 
 ---
 
-A plugin that adds buttons to the navigation bar to toggle GPIO pins on the Raspberry Pi.
+A plugin that adds buttons to the navigation bar to toggle GPIO pins on the Raspberry Pi (incl. Pi 5).
 I use it with a 4 relay board, and printed this case for it: https://www.thingiverse.com/thing:2975944
 
 Just hooked up the GPIO pins with the relay board, and now I can turn the power of the printer, the fan and the light on and foo with OctoPrint.
